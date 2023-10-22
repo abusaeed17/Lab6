@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.vote-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vote-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.like-button {
+  background-color: #4CAF50; 
+  color: #ffffff;
+}
+
+.like-button:hover {
+  background-color: #45a049; 
+}
+
+.dislike-button {
+  background-color: #f44336; 
+  color: #ffffff;
+}
+
+.dislike-button:hover {
+  background-color: #da190b; 
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.emoji {
+  margin-right: 5px;
+}

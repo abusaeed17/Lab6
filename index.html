@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Like or Dislike</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="vote-section">
+        <button class="vote-button like-button" onclick="handleVote('like')">
+            <span class="emoji">👍</span> Like
+        </button>
+        <span class="count" id="likeCount">1</span>
+    </div>
+    <div class="vote-section">
+        <button class="vote-button dislike-button" onclick="handleVote('dislike')">
+            <span class="emoji">👎</span> Dislike
+        </button>
+        <span class="count" id="dislikeCount">0</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
